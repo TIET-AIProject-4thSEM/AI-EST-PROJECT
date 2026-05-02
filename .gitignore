@@ -216,3 +216,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Dataset - never commit images
+data/raw/
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Model weights
+outputs/models/*.h5
+outputs/models/*.keras
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Credentials - NEVER commit these
+kaggle.json
+*.json
+
+# Virtual environment
+venv/
+env/
+
+# MLflow
+mlruns/
