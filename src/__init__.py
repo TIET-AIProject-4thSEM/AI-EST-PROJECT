@@ -1,1 +1,0 @@
-# Steel Surface Defect Detection - Source Package
